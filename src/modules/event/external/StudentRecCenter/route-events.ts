@@ -33,7 +33,7 @@ export async function GET() {
       dtstart:     e.startTime,
       dtend:       e.endTime,
       url:         e.url         ?? "",
-      imageUrl:    e.imageUrl    ?? null,   // ← scraped og:image from service
+      imageUrl:    e.imageUrl    ?? null, 
       allDay:      e.isAllDay    ?? false,
       categories:  e.categories  ?? [],
     }));
